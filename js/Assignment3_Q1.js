@@ -24,15 +24,18 @@ class restaurantManager{
     }
 }
 
-
+// sample array of objects
 restaurants= [
     {name:"TASTE IN",address:"address1",city:"Chennai"},
     {name:"Grill & Chill",address:"address2",city:"Banglore"},
     {name:"Kit-kat",address:"address3",city:"Banglore"}
 ]
 
+// creating new object
 var rM = new restaurantManager(restaurants);
 
+// function call
 rM.printAllRestuarants();
 
+// function call
 console.log(rM.filterRestaurantByCity("Banglore"))
